@@ -1,0 +1,60 @@
+{
+    "name": "New Controls",
+    "maps": [
+        {
+            "name": "PlayerChat",
+            "id": "2208295a-2eec-469f-b74b-beddf03fd22d",
+            "actions": [
+                {
+                    "name": "ChatStart",
+                    "type": "Button",
+                    "id": "a310bc20-d7cf-44ba-9e4d-69a7447da426",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChatSend",
+                    "type": "Button",
+                    "id": "835a7e55-eddd-4063-9c00-2603d4aad0b4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "23d692ee-9d94-48f8-9eef-d86fd66794a3",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Chat",
+                    "action": "ChatStart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ed4012eb-57af-4150-bad5-67adb66e4bfd",
+                    "path": "<Keyboard>/enter",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Chat",
+                    "action": "ChatSend",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Chat",
+            "bindingGroup": "Chat",
+            "devices": []
+        }
+    ]
+}
